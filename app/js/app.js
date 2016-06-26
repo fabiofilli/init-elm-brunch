@@ -1,1 +1,1 @@
-// Elm.Main.fullscreen();
+// For your JavaScript code

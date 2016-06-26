@@ -15,6 +15,7 @@ module.exports = {
   },
   plugins: {
     elmBrunch: {
+      elmFolder: '.',
       mainModules: ['app/elm/Main.elm'],
       outputFolder: 'public/js'
     }
