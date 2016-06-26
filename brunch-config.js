@@ -1,7 +1,7 @@
 module.exports = {
   files: {
     javascripts: {
-      joinTo: 'js/main.js'
+      joinTo: 'js/app.js'
     },
     stylesheets: {
       joinTo: 'css/app.css'
@@ -16,7 +16,7 @@ module.exports = {
   plugins: {
     elmBrunch: {
       mainModules: ['app/elm/Main.elm'],
-      outputFolder: 'app/js'
+      outputFolder: 'public/js'
     }
   },
 }
